@@ -1,0 +1,56 @@
+/*Start General Rules*/
+ .fashion-bg-blue{
+     background-color:#048CB9;
+}
+ .fashion-bg-navyblue{
+     background-color:#002760;
+}
+.text-red{
+	color:red;
+}
+/*End General Rules*/
+/*NAV*/
+ .nav-link,.navbar-brand{
+     text-transform:uppercase;
+}
+/*END NAV*/
+/*START Jumbotron*/
+ .fashion-offer-transparent{
+     color:#fff;
+     background-color:RGBA(0,0,0, 0.8);
+}
+ .fashion-offer-transparent>p:first-child{
+     font-size:40px;
+}
+ .business-select{
+     display:none;
+}
+/*END Jumbotron*/
+/*Start Media Queries for Responsive Design*/
+ @media all and (min-width: 1199px) {
+     .nav-item{
+         padding-left:15px;
+    }
+}
+ @media all and (max-width: 1199px) {
+     .nav-item{
+         padding-left:15px;
+    }
+}
+ @media all and (max-width: 991px) {
+     .nav-item{
+         padding-left:10px;
+    }
+}
+ @media all and (max-width: 768px) {
+     .nav-item{
+         padding-left:5px;
+    }
+}
+ @media all and (max-width: 600px) {
+     .nav-item{
+         padding-left:5px;
+    }
+}
+/*End Media Queries for Responsive Design*/
+ 
