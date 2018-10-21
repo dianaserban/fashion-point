@@ -26,6 +26,11 @@
      display:none;
 }
 /*END Jumbotron*/
+
+/*Start About Page*/
+
+
+/*End About Page*/
 /*Start Media Queries for Responsive Design*/
  @media all and (min-width: 1199px) {
      .nav-item{
